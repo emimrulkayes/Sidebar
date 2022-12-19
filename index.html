@@ -7,16 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar</title>
     <!-- stylesheet -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
 
-    <div class="toggle_menu">
-        <span class="bar1"></span>
-        <span class="bar2"></span>
-        <span class="bar3"></span>
+    <div class="toggle_menu" onclick="menuToggle(this)">
+        <span class="bar1 bar"></span>
+        <span class="bar2 bar"></span>
+        <span class="bar3 bar"></span>
     </div>
+<!-- 
+    <button class="sidebar-toggle">
+        <i class='bx bx-menu'></i>
+    </button> -->
 
     <aside class="sidebar">
 
@@ -37,7 +42,8 @@
     </aside>
 
     <!-- javascript -->
-    <script src="assets/js/app.js"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
